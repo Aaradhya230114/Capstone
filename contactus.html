@@ -47,6 +47,35 @@
         <a href="contactus.html" class="active">Contact us</a>
 
     </div>
+    <section>
+        <img src="https://whirlpoolindia.vtexassets.com/arquivos/ids/164350-800-auto?v=638731268849000000&width=800&height=auto&aspect=true" class="myslides"  style="height: 500px;width:1000px ;" >
+        <img src="https://longwayindia.com/cdn/shop/files/LW-Blaze-800-W-2R-Gray-P1.jpg?v=1756816467" class="myslides" style="height: 500px;width:1000px ;">
+        <img src="https://vilo.co.in/cdn/shop/products/004PRODUCTSVILO13-11-2021.jpg?v=1657608073" class="myslides" style="height: 500px;width:1000px ;">
+        <img src="https://www.thegef.org/sites/default/files/styles/main_image_content_width/public/UNEPIndia1_870.jpg?h=e85f6c07&itok=gl37LxAO" class="myslides" style="height: 500px;width:1000px ;">
+        <img src="https://myborosil.com/cdn/shop/files/my-borosil-toasters-grills-borosil-krispy-pop-up-toaster-black-33330162106506.jpg" class="myslides" style="height: 500px;width:1000px ;">
+        <img src="https://static.wixstatic.com/media/fd9026_2278803b508a4a38b4b8dc730540d246~mv2.jpg/v1/fill/w_1000,h_1000,al_c,q_85/fd9026_2278803b508a4a38b4b8dc730540d246~mv2.jpg" class="myslides" style="height: 500px;width:1000px ;">
+        <img src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/esupport/esupport-pages/desktop-connected-to-monitor.png" class="myslides" style="height: 500px;width:1000px ;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi-pJWE66oeIASXSnF6-9l0S_V_jWBqTKGdg&s" class="myslides" style="height: 500px;width:1000px ;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6_b2TeZwdGKA4j2BHDuSBY0PobxdJl7DHgg&s" class="myslides" style="height: 500px;width:1000px ;">
+        <img src="https://longwayindia.com/cdn/shop/files/LW-Magma-White-Fan-Heater-P1_712e3884-2537-442d-83e2-464117e6729b.jpg?v=1756816465" class="myslides" style="height: 500px;width:1000px ;">
+    </section>
+    <script>
+        var myindex =0
+        carousel()
+        function carousel() {
+         var i 
+         var  x =document.getElementsByClassName("myslides")
+         for(i=0;i < x.length;i++){
+            x[i].style.display="none"
+         }
+         myindex++
+         if(myindex>x.length){
+            myindex=1
+         }
+         x[myindex-1].style.display="block"
+         setTimeout(carousel,3000)
+        }
+    </script>
 
 </body>
 
